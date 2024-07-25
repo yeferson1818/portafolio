@@ -1,0 +1,91 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  display: flex;
+  font-family: poppins, sans-serif;
+}
+
+main {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+header {
+  /* background-color: #919191; */
+  display: flex;
+  justify-content: center;
+  height: 320px;
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+}
+
+.avatar {
+  border: 10px solid white;
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  overflow: hidden;
+  margin-top: 100px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  margin: 150px 0px 0px 0px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.about-me {
+  margin: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social-container {
+    max-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.video-container {
+  width: 30%;
+}
+
+video {
+  width: 100%;
+}
+
+.description {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: center;
+    bottom: 0;
+    width: 100%;
+}
